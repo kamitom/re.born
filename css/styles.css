@@ -1,0 +1,17 @@
+body {
+  background-color: #ffbb91;
+}
+
+p {
+  color: white;
+  font-size: 300%;
+}
+
+#center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    /* border: 3px solid green; */
+  }
+  
