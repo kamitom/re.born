@@ -40,8 +40,8 @@ div {
 
 .top-container {
     background-color: #d2f5e3;
-    border: 10px solid green;
-    padding: 20px;
+    /* border: 10px solid green;
+    padding: 20px; */
 }
 
 .square200 {
@@ -51,14 +51,14 @@ div {
 
 .middle-container {
     background-color: gold;
-    border: 20px solid red;
-    margin-left: 260px;
+    /* border: 20px solid red; */
+    /* margin-left: 260px; */
 }
 
 .bottom-container {
     background-color: greenyellow;
-    border: 10px solid blue;
-    margin-left: 500px;
+    /* border: 10px solid blue; */
+    /* margin-left: 500px; */
 }
 
 /**** ID SELECTOR ****/
