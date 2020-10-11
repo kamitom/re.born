@@ -1,4 +1,3 @@
-
 /**** TAG SELECTOR ****/
 
 body {
@@ -31,8 +30,35 @@ div {
     /* border: 3px solid green; */
 }
 
-.fit-picture {
-    width: 20%;
+.fit-pic {
+    width: 100%;
+}
+
+.circular {
+    border-radius: 100%;
+}
+
+.top-container {
+    background-color: #d2f5e3;
+    border: 10px solid green;
+    padding: 20px;
+}
+
+.square200 {
+    width: 200px;
+    height: 200px;
+}
+
+.middle-container {
+    background-color: gold;
+    border: 20px solid red;
+    margin-left: 260px;
+}
+
+.bottom-container {
+    background-color: greenyellow;
+    border: 10px solid blue;
+    margin-left: 500px;
 }
 
 /**** ID SELECTOR ****/
