@@ -1,17 +1,33 @@
-body {
-  background-color: #ffbb91;
+
+/**** TAG SELECTOR ****/
+
+/* body {
+    background-color: #ffbb91;
+} */
+
+h1:hover {
+    background-color: #ffbb91;
 }
 
-p {
-  color: white;
-  font-size: 300%;
+/* p {
+    color: white;
+    font-size: 200%;
+} */
+
+/**** CLASS SELECTOR ****/
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    /* border: 3px solid green; */
 }
 
+/**** ID SELECTOR ****/
 #center {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 600px;
     /* border: 3px solid green; */
-  }
-  
+}
