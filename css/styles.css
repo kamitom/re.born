@@ -11,6 +11,7 @@ body {
 
 h1:hover {
     background-color: #94b4a4;
+    color: white;
 }
 
 h1 {
@@ -20,16 +21,23 @@ h1 {
     margin: 50px auto 0 auto;
     font-family: 'Sacramento', cursive;
     font-size: 5.625rem; /* 1em = 16px = 100%; 90px = 562.5% = 5.625em */
-
+    color: #66BFBF;
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem; /* equal to 40px = 2.5em = 250% */
+    font-weight: normal;
+    color: #66BFBF;
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+a {
+    color: #11999E;
 }
 
 /* div {
@@ -45,6 +53,25 @@ h3 {
 
 .divclass {
     margin: 20px auto;
+}
+
+.api-img {
+    width: 50%;
+    float: left;
+    margin-right: 30px;
+}
+
+.dev-img {
+    width: 50%;
+    float: right;
+    margin-left: 30px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 50px auto 50px auto;
+    text-align: left;
+    line-height: 2;
 }
 
 .pro {
