@@ -26,7 +26,7 @@ h1 {
 
 h2 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem; /* equal to 40px = 2.5em = 250% */
+    font-size: 1.8rem; /* equal to 40px = 2.5em = 250% */
     font-weight: normal;
     color: #66BFBF;
 }
@@ -56,13 +56,13 @@ a {
 }
 
 .api-img {
-    width: 50%;
+    width: 40%;
     float: left;
     margin-right: 30px;
 }
 
 .dev-img {
-    width: 50%;
+    width: 40%;
     float: right;
     margin-left: 30px;
 }
