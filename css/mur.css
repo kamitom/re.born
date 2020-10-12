@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #f56a79;
+}
+
+h1:hover {
+    background-color: #ff414d;
+    color: white;
+}
+
+img {
+    position: fixed;
+    left: 20px;
+    top: 20px;
+}
+
+
+.fit-pic {
+    width: 20%;
+}
+
+.for-home {
+    text-decoration: underline;
+    font-size: small;
+}
