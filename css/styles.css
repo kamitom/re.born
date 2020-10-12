@@ -6,7 +6,7 @@ body {
     /* font-family: sans-serif; */
     /* font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; */
     font-family: 'Merriweather', serif;
-
+    /* font-size: 200%; 100% = 16px;  */
 }
 
 h1:hover {
@@ -16,13 +16,16 @@ h1:hover {
 h1 {
     /* margin: 0 auto 0 auto;
     width: 10%; */
-    margin-top: 0;
+    /* margin-top: 50px; */
+    margin: 50px auto 0 auto;
     font-family: 'Sacramento', cursive;
+    font-size: 5.625rem; /* 1em = 16px = 100%; 90px = 562.5% = 5.625em */
 
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem; /* equal to 40px = 2.5em = 250% */
 }
 
 h3 {
@@ -59,19 +62,15 @@ h3 {
     padding-top: 100px;;
 }
 
-.square200 {
-    width: 200px;
-    height: 200px;
-}
 
 .middle-container {
-    background-color: gold;
+    /* background-color: gold; */
     /* border: 20px solid red; */
     /* margin-left: 260px; */
 }
 
 .bottom-container {
-    background-color: greenyellow;
+    /* background-color: greenyellow; */
     /* border: 10px solid blue; */
     /* margin-left: 500px; */
 }
