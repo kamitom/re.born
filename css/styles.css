@@ -3,6 +3,10 @@
 body {
     margin: 0;
     text-align: center;
+    /* font-family: sans-serif; */
+    /* font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; */
+    font-family: 'Merriweather', serif;
+
 }
 
 h1:hover {
@@ -13,7 +17,16 @@ h1 {
     /* margin: 0 auto 0 auto;
     width: 10%; */
     margin-top: 0;
+    font-family: 'Sacramento', cursive;
 
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* div {
@@ -26,6 +39,10 @@ h1 {
 } */
 
 /**** CLASS SELECTOR ****/
+
+.divclass {
+    margin: 20px auto;
+}
 
 .pro {
     text-decoration: underline;

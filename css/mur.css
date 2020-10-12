@@ -1,13 +1,18 @@
 body {
     margin: 0;
     text-align: center;
+    font-family: 'Merriweather', serif;
+
 }
 
 h1 {
     color: #f56a79;
+    font-family: 'Sacramento', cursive;
+    
 }
 
 h1:hover {
+    font-family: 'Montserrat', sans-serif;
     background-color: #ff414d;
     color: white;
 }
