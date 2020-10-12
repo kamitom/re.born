@@ -2,12 +2,14 @@ body {
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
-
+    /* color: white;
+    background-color: black; */
 }
 
 h1 {
     color: #f56a79;
-    font-family: 'Sacramento', cursive;
+    /* font-family: 'Sacramento', cursive; */
+    font-family: sans-serif;
     
 }
 
@@ -18,15 +20,21 @@ h1:hover {
 }
 
 img {
-    position: fixed;
+    /* position: fixed;
     left: 20px;
-    top: 20px;
+    top: 20px; */
+    position: relative;
+    zoom: 50%;
 }
 
+img:hover {
+    zoom: 80%;
+}
 
+/* 
 .fit-pic {
     width: 20%;
-}
+} */
 
 .for-home {
     text-decoration: underline;
