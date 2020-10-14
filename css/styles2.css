@@ -39,9 +39,7 @@ h1 {
     margin: 0 18px;
 }
 
-.nav-link {
-    /* font-weight: 400; */
-}
+
 
 /* Donwload Button */
 .download-button {
@@ -54,10 +52,36 @@ h1 {
     transform: rotate(25deg);
 }
 
+.features-icon {
+    color: #ef8172;
+    zoom: 400%
+}
+
+.features-icon:hover {
+    color: #000;
+    zoom: 400%
+}
+
+.features-size {
+    color: #000;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.features-p {
+    color: #8f8f8f;
+}
+
 /**** ID SELECTOR ****/
 
 #title {
     /* background-color: #ff4c68; */
     background-color: #ffa5a5;
     color: #fff;
+}
+
+#features {
+    color: #8f8f8f;
+    text-align: center;
+    
 }
