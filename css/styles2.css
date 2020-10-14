@@ -1,20 +1,21 @@
+/* 
+body {
+    background-color: #ff4c68;
+} */
 
 h1 {
     font-size: 3rem;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-weight: 900;
     line-height: 1.5;
 }
 
+.container-fluid {
+    padding: 3% 15%;
+}
 
 /**** ID SELECTOR ****/
 
 #title {
-    /* font-family: 'Montserrat', sans-serif;
-    font-family: 'Ubuntu', sans-serif; */
-    
-
-    /* font-family: 'Ubuntu', sans-serif; */
-    /* background-color: #fcdada; #FF4C68 */
     background-color: #ff4c68; /* #FF4C68 */
 }
