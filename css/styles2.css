@@ -9,14 +9,24 @@ h1 {
     font-family: "Montserrat";
     font-weight: 900;
     line-height: 1.5;
-
+    
 }
 
+h3 {
+    color: #000;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+p {
+    color: #8f8f8f;
+}
 
 /**** CLASS SELECTOR ****/
 
 .zhong {
     line-height: 2;
+    color: #fff;
 }
 
 
@@ -52,24 +62,21 @@ h1 {
     transform: rotate(25deg);
 }
 
+
+/* Features Section */
 .features-icon {
     color: #ef8172;
-    zoom: 400%
+    margin-bottom: 1rem;
 }
 
 .features-icon:hover {
-    color: #000;
-    zoom: 400%
-}
-
-.features-size {
-    color: #000;
-    font-weight: 700;
-    font-size: 1.5rem;
-}
-
-.features-p {
     color: #8f8f8f;
+}
+
+
+.feature-box {
+    text-align: center;
+
 }
 
 /**** ID SELECTOR ****/
@@ -82,6 +89,5 @@ h1 {
 
 #features {
     color: #8f8f8f;
-    text-align: center;
-    margin: 10% auto;
+    padding: 7% 15%;
 }
