@@ -40,7 +40,7 @@ h1 {
 }
 
 .nav-link {
-    font-weight: 100;
+    /* font-weight: 400; */
 }
 
 /* Donwload Button */
@@ -57,6 +57,7 @@ h1 {
 /**** ID SELECTOR ****/
 
 #title {
-    background-color: #ff4c68; /* #FF4C68 */
+    /* background-color: #ff4c68; */
+    background-color: #ffa5a5;
     color: #fff;
 }
