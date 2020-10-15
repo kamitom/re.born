@@ -146,6 +146,30 @@ p {
     text-align: center;
 }
 
+@media (max-width: 992px) {
+    .title-img {
+        position: static;
+        width: 50%;
+        transform: rotate(0);
+    }
+
+    h1 {
+        font-size: 2rem;
+        font-family: "Montserrat";
+        font-weight: 700;
+        line-height: 1;
+        
+    }
+
+    #title {
+        text-align: center;
+    }
+
+    /* .zhong {
+        text-align: center;
+    } */
+}
+
 
 
 
