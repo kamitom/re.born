@@ -98,6 +98,11 @@ p {
     margin: 20px 50px 20px;
 }
 
+.carousel-item {
+    padding: 7% 15%;
+
+}
+
 
 /**** ID SELECTOR ****/
 
@@ -118,11 +123,6 @@ p {
     color: #fff;
 }
 
-
-.carousel-item {
-    padding: 7% 15%;
-
-}
 
 #press {
     background-color: #ef8172;
