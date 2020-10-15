@@ -1,6 +1,5 @@
 
 body {
-    /* background-color: #ff4c68; */
     font-family: "Montserrat";
 }
 
@@ -19,7 +18,7 @@ h2 {
 }
 
 h3 {
-    /* color: #000; */
+    color: #000;
     font-weight: 700;
     font-size: 1.5rem;
 }
@@ -62,9 +61,6 @@ p {
 /* Donwload Button */
 .download-button {
     margin: 0 3% 3%
-}
-.download-button2 {
-    margin: 2% 3% 3%
 }
 
 /* Title Image */
@@ -114,7 +110,6 @@ p {
 /**** ID SELECTOR ****/
 
 #title {
-    /* background-color: #ff4c68; */
     background-color: #0278ae;
     color: #fff;
 }
@@ -151,18 +146,32 @@ p {
     text-align: center;
 }
 
+
+/* CTA Section */
+
 #cta {
-    font-weight: 700;
     color: #fff;
     background-color: #0278ae;
     text-align: center;
-    padding: 2% 5%;
+    padding: 7% 15%;
+}
+
+.cta-heading {
+    font-family: "Ubuntu";
+    /* font-weight: 500; */
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #fff;
 }
 
 #footer {
     color:#fff;
     text-align: center;
-    padding: 2% 2% 3%;
+    padding: 7% 15%;
+}
+
+.social-icon {
+    margin: 5px 15px;
 }
 
 @media (max-width: 992px) {
