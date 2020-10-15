@@ -93,6 +93,14 @@ p {
 
 
 /* Features Section */
+
+#features {
+    color: #8f8f8f;
+    
+    position: relative;
+    z-index: 1;
+}
+
 .features-icon {
     color: #51adcf;
     margin-bottom: 1rem;
@@ -107,7 +115,7 @@ p {
 }
 
 
-/**** testimonial ****/
+/**** testimonial section ****/
 
 #testimonials {
     background-color: #51adcf;
@@ -135,14 +143,7 @@ p {
 
 
 
-#features {
-    color: #8f8f8f;
-    
-    position: relative;
-    z-index: 1;
-}
-
-
+/* press section */
 
 #press {
     background-color: #51adcf;
@@ -168,6 +169,7 @@ p {
 /* CTA Section */
 
 
+/* footer section  */
 
 #footer {
     color:#fff;
