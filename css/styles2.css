@@ -131,6 +131,16 @@ p {
     
 }
 
+/* pricing section  */
+#pricing {
+    padding: 100px;
+}
+
+.pricing-column  {
+    padding: 3% 2%;
+    text-align: center;
+}
+
 
 
 
