@@ -58,6 +58,7 @@ p {
 
 
 
+
 /* Donwload Button */
 .download-button {
     margin: 0 3% 3%
@@ -77,7 +78,7 @@ p {
 
 /* Features Section */
 .features-icon {
-    color: #ef8172;
+    color: #51adcf;
     margin-bottom: 1rem;
 }
 
@@ -114,7 +115,7 @@ p {
 
 #title {
     /* background-color: #ff4c68; */
-    background-color: #ffa5a5;
+    background-color: #0278ae;
     color: #fff;
 }
 
@@ -128,13 +129,13 @@ p {
 
 #testimonials {
     text-align: center;
-    background-color: #ef8172;
+    background-color: #51adcf;
     color: #fff;
 }
 
 
 #press {
-    background-color: #ef8172;
+    background-color: #51adcf;
     text-align: center;
     padding-bottom: 3%;
     
@@ -153,7 +154,7 @@ p {
 #cta {
     font-weight: 700;
     color: #fff;
-    background-color: #ff4c68;
+    background-color: #0278ae;
     text-align: center;
     padding: 2% 5%;
 }
