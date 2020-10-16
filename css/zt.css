@@ -3,12 +3,6 @@ body {
     text-align: center;
 }
 
-
-/* h1 {
-    font-size: 5.5rem;
-} */
-
-
 .chinese {
     font-family: 'Noto Sans TC', sans-serif;
 }
@@ -17,9 +11,15 @@ body {
     width: 20%;
 }
 
+/* Navigation Bar */
+
+.navbar-brand {
+    font-size: 2.5rem;
+}
+
 /* Sections */
 .colored-section {
-    background-color: #0278ae;
+    background-color: #07689f;
     color: #fff;
 }
 
@@ -27,9 +27,22 @@ body {
     background-color: #fff;
 }
 
+.press-section {
+    background-color: #a2d5f2;;
+}
+
+.culture-section {
+    background-color: #ff7e67;
+    color: #fff;
+}
+
 /* title section */
 #title .container-fluid {
     text-align: left;
     padding: 3% 7% 5%;
+}
+
+#title .zoom-img {
+    zoom: 8%;
 }
 
