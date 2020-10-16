@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  },
+  "name": "re.born",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:kamitom/re.born.git",
+  "author": "kamitom csw <csw@pm.me>",
+  "license": "MIT",
+  "scripts": {
+    "start": "serve ./public -l 8088",
+    "dev:run": "http-server -c-1 -p 8090",
+    "css-build": "node-sass --omit-source-map-url sass/mystyles.scss ../../css/mystyles.css",
+    "css-watch": "npm run css-build -- --watch"
+  }
+}

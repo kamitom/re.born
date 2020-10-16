@@ -1,0 +1,35 @@
+body {
+    font-family: "Ubuntu";
+    text-align: center;
+}
+
+
+/* h1 {
+    font-size: 5.5rem;
+} */
+
+
+.chinese {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.img-logo {
+    width: 20%;
+}
+
+/* Sections */
+.colored-section {
+    background-color: #0278ae;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
+/* title section */
+#title .container-fluid {
+    text-align: left;
+    padding: 3% 7% 5%;
+}
+
