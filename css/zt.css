@@ -19,7 +19,7 @@ body {
 
 /* Sections */
 .colored-section {
-    background-color: #07689f;
+    background-color: #0278ae;
     color: #fff;
 }
 
@@ -28,12 +28,13 @@ body {
 }
 
 .press-section {
-    background-color: #a2d5f2;;
+    background-color: #51adcf;;
+    color: #fff;
 }
 
 .culture-section {
-    background-color: #ff7e67;
-    color: #fff;
+    background-color: #a8dda8;
+    color: gray;
 }
 
 /* title section */
@@ -44,5 +45,9 @@ body {
 
 #title .zoom-img {
     zoom: 8%;
+}
+
+.title-img {
+    border-radius: 90%;
 }
 
