@@ -1,6 +1,6 @@
 body {
   /* font-family: "Ubuntu"; */
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 
   text-align: center;
   color: #2c2e2f;
@@ -11,9 +11,11 @@ body {
 }
 
 .chinese-logo {
-  font-family: "cwTeXKai", serif;
-    font-weight: 800;
+  /* font-family: "cwTeXKai", serif; */
+  font-family: "微軟正黑體", "Microsoft JhengHei", "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
 
+  font-weight: 800;
 }
 
 .img-logo {
@@ -64,17 +66,16 @@ body {
   border-radius: 90%;
 }
 
-
 /* Features section */
 #features {
-    position: relative;
-    z-index: 1;
-    margin-top: 3%;
+  position: relative;
+  z-index: 1;
+  margin-top: 3%;
 }
 
 .features-icon {
-    color: #51adcf;
-    margin-bottom: 1rem;
+  color: #51adcf;
+  margin-bottom: 1rem;
 }
 
 /* press section */
