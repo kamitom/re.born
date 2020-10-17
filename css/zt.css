@@ -1,83 +1,99 @@
 body {
-    font-family: "Ubuntu";
-    text-align: center;
-    color: #2c2e2f;
+  /* font-family: "Ubuntu"; */
+  font-family: 'Poppins', sans-serif;
+
+  text-align: center;
+  color: #2c2e2f;
 }
 
 .chinese {
-    font-family: 'Noto Sans TC', sans-serif;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+.chinese-logo {
+  font-family: "cwTeXKai", serif;
+    font-weight: 800;
+
 }
 
 .img-logo {
-    width: 20%;
+  width: 20%;
 }
 
 /* Navigation Bar */
 
 .navbar-brand {
-    font-size: 2.5rem;
+  font-size: 2.3rem;
 }
 
 /* Sections */
 .colored-section {
-    background-color: #0278ae;
-    color: #fff;
+  background-color: #0278ae;
+  color: #fff;
 }
 
 .white-section {
-    background-color: #fff;
+  background-color: #fff;
 }
 
 .press-section {
-    background-color: #51adcf;;
-    color: #fff;
+  background-color: #51adcf;
+  color: #fff;
 }
 
 .culture-section {
-    background-color: #a8dda8;
+  background-color: #a8dda8;
 }
-
 
 /* title section */
 #title .container-fluid {
-    text-align: left;
-    padding: 3% 7% 5%;
+  text-align: left;
+  padding: 3% 7% 5%;
+}
+
+#title img {
+  margin-right: 3%;
 }
 
 #title .zoom-img {
-    zoom: 8%;
+  zoom: 8%;
+  border-radius: 100%;
 }
 
 .title-img {
-    border-radius: 90%;
+  border-radius: 90%;
 }
 
 
+/* Features section */
+#features {
+    position: relative;
+    z-index: 1;
+    margin-top: 3%;
+}
+
+.features-icon {
+    color: #51adcf;
+    margin-bottom: 1rem;
+}
 
 /* press section */
 
 .press-img {
-    border-radius: 100%;
-    
+  border-radius: 100%;
 }
-
-
-
 
 @media (max-width: 992px) {
-    .title-img {
-        position: static;
-        width: 70%;
-        /* transform: rotate(0); */
-    }
+  .title-img {
+    position: static;
+    width: 70%;
+    /* transform: rotate(0); */
+  }
 
-    .press-img {
-        position: static;
-        width: 60%;
-    }
-
-   
-
+  .press-img {
+    position: static;
+    width: 60%;
+  }
 }
 
-
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexkai.css);
