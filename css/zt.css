@@ -1,6 +1,7 @@
 body {
     font-family: "Ubuntu";
     text-align: center;
+    color: #2c2e2f;
 }
 
 .chinese {
@@ -34,8 +35,8 @@ body {
 
 .culture-section {
     background-color: #a8dda8;
-    color: gray;
 }
+
 
 /* title section */
 #title .container-fluid {
@@ -50,6 +51,8 @@ body {
 .title-img {
     border-radius: 90%;
 }
+
+
 
 /* press section */
 
