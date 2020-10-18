@@ -7,7 +7,7 @@ body {
 }
 
 .container-fluid {
-  padding: 7% 15%;
+  padding: 5% 15%;
 }
 
 .chinese {
@@ -47,8 +47,18 @@ body {
   color: #fff;
 }
 
+.customers-section {
+  background-color: #effad3;
+}
+
 .culture-section {
   background-color: #a8dda8;
+}
+
+/* Headings */
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 /* title section */
@@ -95,6 +105,32 @@ body {
   line-height: 1.5;
 }
 
+.press-logo {
+  width: 15%;
+  margin: 20px 50px 20px;
+}
+
+/* Customers section  */
+/* pricing section  */
+#customerslist {
+  padding: 100px;
+}
+
+.customers-column {
+  padding: 3% 2%;
+}
+
+.customers-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* footer section  */
+
+.social-icon {
+  margin: 5px 15px;
+}
+
 @media (max-width: 992px) {
   .title-img {
     position: static;
@@ -107,10 +143,14 @@ body {
     width: 60%;
   }
 
+  #press em {
+    display: none;
+  }
+
   .press-text {
     font-size: 1.2rem;
     line-height: 1.5;
-    text-align: left;
+    font-weight: 700;
   }
 }
 
