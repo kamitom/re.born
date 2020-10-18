@@ -6,6 +6,10 @@ body {
   color: #2c2e2f;
 }
 
+.container-fluid {
+  padding: 7% 15%;
+}
+
 .chinese {
   font-family: "Noto Sans TC", sans-serif;
 }
@@ -15,7 +19,7 @@ body {
   font-family: "微軟正黑體", "Microsoft JhengHei", "Helvetica Neue", Helvetica,
     Arial, sans-serif;
 
-  font-weight: 800;
+  /* font-weight: 800; */
 }
 
 .img-logo {
@@ -81,7 +85,14 @@ body {
 /* press section */
 
 .press-img {
-  border-radius: 100%;
+  width: 35%;
+  /* border-radius: 100%; */
+  margin: 20px;
+}
+
+.press-text {
+  font-size: 2.3rem;
+  line-height: 1.5;
 }
 
 @media (max-width: 992px) {
@@ -94,6 +105,12 @@ body {
   .press-img {
     position: static;
     width: 60%;
+  }
+
+  .press-text {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: left;
   }
 }
 
